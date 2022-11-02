@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Put your site title here -->
+  <title>
+    Portofolioku
+  </title>
+
+  <meta name="description" content="Add small description of yourself.">
+  <!-- Add some coding keywords below, Ex: (CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          Anas Muflih
+        </h1>
+        <p>An Android Developer based in Cilacap, Indonesia.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+      <div class="imageanas">
+          <img src="/images/headanass.png" alt="Anas Muflih">
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Alarm App</h3>
+              <p>
+                An application to help people managing their time.
+              </p>
+              <ul class="work__list">
+                <li>Kotlin</li>
+                <li>Android Studio</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/anszmflhs/AlarmApp.git" target="_blank" class="link__text">
+                  Visit Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/anszmflhs/AlarmApp.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/alarm.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Chat App</h3>
+              <p>
+                An application to help people contact to each other with remotely.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Android Studio</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/anszmflhs/chatapp" target="_blank" class="link__text">
+                  Visit Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/anszmflhs/chatapp" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/chat.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Kisah 25 Nabi dan Rasul</h3>
+              <p>
+                An application to help people to know about our prophet.
+              </p>
+              <ul class="work__list">
+                <li>Kotlin</li>
+                <li>Android Studio</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/anszmflhs/KisahNabi" target="_blank" class="link__text">
+                  Visit Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/anszmflhs/KisahNabi" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/kisah.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/jakwan.JPG" class="client__logo" alt="Dzakwan" />
+          <img src="./images/isan.JPG" class="client__logo" alt="Ikhsan" />
+          <img src="./images/star.JPG" class="client__logo" alt="Bintang" />
+          <img src="./images/ajis.JPG" class="client__logo" alt="Ajis" />
+          <img src="./images/bird.JPG" class="client__logo" alt="Little Bird" />
+          <img src="./images/alip.JPG" class="client__logo" alt="Alip" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              A handsome student that live at South Cilacap and study at IDN Boarding School Bogor with his dream to become an Android Developer in the future.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1Tg_l6QoRFZdShRFNXY0P7_B_mV_fL8md/view?usp=sharing" class="btn" target="_blank">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/me.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for an Android Developer or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via Whatsapp.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="https://wa.me/6287882220605?text=Hello+do+you+want+to+get+in+touch+with+me?" target="_blank" class="btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/anasmuflih/" target="_blank" title="Link to Instagram Profile">
+            <img src="./images/instagram.svg" class="footer__social-image" alt="Instagram">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/anszmflhs" target="_blank" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.youtube.com/channel/UCaanLk_d73XSyW5FR67HfWA" target="_blank" title="Link to Youtube Profile">
+            <img src="./images/youtube.svg" class="footer__social-image" alt="Youtube">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/anas-muflih-003275236/" target="_blank" title="Link to Linkedin Profile" >
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2022 - Anas Muflih Portofolio
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+</html>
